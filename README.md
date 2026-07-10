@@ -1,36 +1,17 @@
-<<<<<<< HEAD
-# my_first_app
+# Flashcard App
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Quote Generator App
-
-A simple Flutter application that generates random quotes to inspire you.
+Ye ek interactive Flashcard application hai, jise Flutter aur Dart ka use karke banaya gaya hai. Ye user ko concepts jaldi seekhne aur revise karne mein madad karta hai.
 
 ## Features
-- Generates random quotes with a single click.
-- Built using Flutter and Dart.
-- Clean and user-friendly UI.
+* **Interactive UI:** Flashcards ko flip karke answer dekhne ki suvidha.
+* **Easy Navigation:** Cards ke beech switch karna aasaan.
+* **Clean Design:** User-friendly aur responsive layout.
 
 ## How to Run
-1. Make sure you have [Flutter](https://docs.flutter.dev/get-started/install) installed.
-2. Clone this repository: `git clone https://github.com/Shivi866/random-quote-generator.git`
+1. Make sure you have **Flutter** installed.
+2. Clone this repository: 
+   `git clone https://github.com/Shivi866/codealpha_tasks1.git`
 3. Open the project folder in your terminal.
 4. Run `flutter pub get` to install dependencies.
 5. Run `flutter run` to start the app.
 6.
->>>>>>> 2f5f4b37de8c4de6fa2f67c973bee1e1e7650e33
