@@ -10,7 +10,7 @@ Ye ek interactive Flashcard application hai, jise Flutter aur Dart ka use karke 
 ## How to Run
 1. Make sure you have **Flutter** installed.
 2. Clone this repository: 
-   `git clone https://github.com/Shivi866/codealpha_tasks1.git`
+   `git clone https://github.com/Shivi866/codealpha_tasks2.git`
 3. Open the project folder in your terminal.
 4. Run `flutter pub get` to install dependencies.
 5. Run `flutter run` to start the app.
