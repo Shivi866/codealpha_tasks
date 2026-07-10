@@ -24,50 +24,61 @@ class FlashcardScreen extends StatefulWidget {
 class _FlashcardScreenState extends State<FlashcardScreen> {
   final List<Flashcard> _flashcards = [
     Flashcard(
-      question: "What is the purpose of the static keyword in Java? 🏗️",
+      question:
+          "What is the main difference between final, finally, and finalize?🚀",
       answer:
-          "The static keyword is used for memory management. It makes a variable or method belong to the class rather than a specific object, allowing it to be accessed without creating an instance of the class.",
+          "final is a keyword (no change), finally is for cleanup blocks, and finalize is for garbage collection. 🧹",
     ),
     Flashcard(
-      question: "What is 'Inheritance' in Java? 🧬",
+      question: "Is Java a 100% Object-Oriented language? 🎯",
       answer:
-          "Inheritance is a mechanism where one class (child) acquires the properties and methods of another class (parent). It is achieved using the extends keyword.",
+          "No, because it uses primitive types (like int, boolean, double) which are not objects. 🔢⚡",
     ),
     Flashcard(
-      question: "What is Polymorphism? 🎭",
+      question: "Why do we use public static void main?🧩",
       answer:
-          "Polymorphism means 'many forms.' In Java, it occurs in two ways: Compile-time (Method Overloading) and Runtime (Method Overriding).",
-    ),
-    Flashcard(
-      question: "Why do we use try-catch blocks? 🛡️",
-      answer:
-          "To handle runtime errors (exceptions) gracefully so that the program doesn't crash unexpectedly and continues to run.",
-    ),
-    Flashcard(
-      question: "What is the difference between throw and throws? 🚀",
-      answer:
-          "throw is used inside a method to explicitly trigger an exception, while throws is used in a method signature to declare that the method might throw a specific exception.",
-    ),
-    Flashcard(
-      question: "What is the difference between ArrayList and LinkedList? 📋",
-      answer:
-          "ArrayList is faster for accessing data (dynamic array), while LinkedList is faster for adding or removing elements (doubly-linked list).",
-    ),
-    Flashcard(
-      question: "How does a HashMap work? 🔑",
-      answer:
-          "A HashMap stores data in 'Key-Value' pairs. It uses a technique called hashing to allow for very fast data retrieval and searching.",
+          "public (accessible everywhere), static (no object needed), void (no return), main (entry point). 🏁 🎨",
     ),
     Flashcard(
       question:
-          "What is the difference between an Interface and an Abstract Class? ⚖️",
+          "What is the difference between an Interface and an Abstract Class?",
       answer:
-          "An Abstract Class can have both abstract and non-abstract methods (with implementation) and state (variables). An Interface is a blueprint that defines what a class should do, traditionally containing only method declarations.",
+          "Abstract classes allow some code implementation; interfaces (traditionally) only define behavior contracts. 📜",
     ),
     Flashcard(
-      question: "Why are Strings considered 'immutable' in Java? 🧊",
+      question: "What is Polymorphism?",
       answer:
-          "Strings are immutable for security and memory efficiency. By using the String Pool, Java can share string instances, which would be impossible if strings could be modified after creation.",
+          "The ability of one object to take many forms—like using a single method name in different ways (Overloading/Overriding). 🎭",
+    ),
+    Flashcard(
+      question: "Why use private variables?",
+      answer:
+          "To achieve Encapsulation—protecting your data from direct access and keeping it safe! 🔒",
+    ),
+    Flashcard(
+      question: "ArrayList vs LinkedList?",
+      answer:
+          "ArrayList is faster for accessing data; LinkedList is faster for adding/deleting data. ⚡",
+    ),
+    Flashcard(
+      question: "What is the String Pool?",
+      answer:
+          "A memory area that saves space by reusing String literals instead of creating duplicates. 💾",
+    ),
+    Flashcard(
+      question: "What does the Garbage Collector do?",
+      answer:
+          "It automatically finds and deletes objects that are no longer being used to free up memory. 🗑️",
+    ),
+    Flashcard(
+      question: "What is a Lambda Expression?",
+      answer:
+          "A short, functional way to write code without needing a full method definition. 🎯",
+    ),
+    Flashcard(
+      question: "What is the Stream API?",
+      answer:
+          "A powerful tool introduced in Java 8 to process collections of data in a functional, readable way. 🌊",
     ),
   ];
 
@@ -117,7 +128,7 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
                         : _flashcards[_currentIndex].answer,
                     style: TextStyle(
                       color: Colors.white,
-                      fontSize: 16,
+                      fontSize: 22,
                       fontWeight: FontWeight.bold,
                     ),
                     textAlign: TextAlign.center,
